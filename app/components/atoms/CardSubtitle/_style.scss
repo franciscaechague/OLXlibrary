@@ -1,0 +1,10 @@
+@import "../../../_general_style.scss";
+
+.a__cardsubtitle {
+  @include primary-text(0.8em, $black, 400);
+
+  &:hover {
+    cursor: pointer;
+    color: $secondary-blue;
+  }
+}

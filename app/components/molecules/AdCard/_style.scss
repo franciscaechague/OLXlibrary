@@ -1,0 +1,24 @@
+@import "../../../general_style";
+
+.m__ad_card {
+  margin: 0.5em;
+  width: 18em;
+  height: 16.5em;
+  display: inline-block;
+  background-color: $secondary-purple;
+  border-radius: 1%;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+  text-align: center;
+
+    .m__ad_card_title {
+      margin-top: 4em;
+      @include primary-text(1em, $white, 400)
+    }
+
+    .m__ad_card_body {
+      width: 90%;
+      margin: 0 auto 2.5em auto;
+      @include primary-text(0.8em, $white, 100);
+      text-align: center;
+    }
+}

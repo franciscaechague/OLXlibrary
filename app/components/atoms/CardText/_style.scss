@@ -1,0 +1,6 @@
+@import "../../../_general_style.scss";
+
+.a__cardtext {
+  @include primary-text(0.9em, $primary-grey, lighter);
+  margin: 0;
+}

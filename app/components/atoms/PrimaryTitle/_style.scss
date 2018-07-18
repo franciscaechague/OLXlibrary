@@ -1,0 +1,5 @@
+@import "../../../_general_style.scss";
+
+.a__title {
+  @include primary-title;
+}

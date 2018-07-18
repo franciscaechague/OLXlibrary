@@ -1,0 +1,15 @@
+@import "../../../_general_style.scss";
+
+.a__card_icon {
+  margin: 1em;
+  padding: 1em;
+  width: 1em;
+  height: 1em;
+  background-color: $secondary-blue;
+  border-radius: 50%;
+
+  img {
+    width: 1em;
+    height: 1em;
+  }
+}

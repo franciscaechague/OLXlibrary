@@ -1,0 +1,6 @@
+@import "../../../_general_style.scss";
+
+.a__cardtitle {
+  @include primary-text(1.2em, $black, bold);
+  margin: 0;
+}

@@ -1,0 +1,7 @@
+@import "../../../_general_style.scss";
+
+.a__secondary_title {
+  @include secondary-title;
+  margin: 0;
+  clear: left;
+}

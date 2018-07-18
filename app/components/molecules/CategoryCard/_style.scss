@@ -1,0 +1,20 @@
+.m__category_card {
+  margin: 0.5em;
+  width: 18em;
+  height: 15em;
+  background-color: white;
+  display: inline-block;
+  text-align: left;
+
+  .m__category_card_header {
+    max-width: 90%;
+    height: 5.5em;
+    display: flex;
+    align-items: center;
+  }
+
+  .m__category_card_body {
+    border-top: 1px solid #dedede;
+    padding: 1em;
+  }
+}
